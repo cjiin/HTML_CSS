@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 테이블의 경게선을 하나로 병합해서 표시 */
+        table {
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+        }
+        th{
+            background-color: orange;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <p>나의 첫번째 html을 작성 합니다.</p>
+    <!-- h는 제목의 크기를 결정합니다. 실제 화면 구성 시에는 CSS에서 폰트의 크기를 결정하도록 합니다. -->
+    <p>일반적인 문구</p>
+    <!-- 들여쓰기처럼 동작-->
+    <blockquote>인용문</blockquote>
+    <p>레드향은 <em>한라봉과 귤을 교배</em> 한 것으로 <br> 일반 귤보다 2~3배 크고, 과율이 붉고 통통하다.</p>
+    <p>저는 하나의 단락입니다.</p>
+    <hr>
+    <p>저는 하나의 단락입니다.</p>
+
+    <p>세일 기간을 맞이하여 온라인 수강권을 할인된금액(정가<del>36,000원</del><ins>20,000원</ins>)에 판매 합니다.</p>
+   
+    <!--sub 태그와 sup태그는 각각 아래 첨자, 위 첨자에 해당하는 텍스트를 작성 할 때 사용 합니다.-->
+    <p>공기의 원소 기호는 H<sub>2</sub>O</p>
+    <p>4<sup>2</sup>은 16입니다. </p>
+    <div class="movie">
+        <p>영화 소개</p>
+        <p><span style="font-style: italic; font-weight: bold; color: yellow;">영화</span>를 소개하는 페이지입니다.</p>
+      </div>
+      <div class="tv">
+        <p>TV 프로그램 소개</p>
+        <p>TV 프로그램을 소개하는 페이지입니다.</p>
+      </div>
+      <div style="background-color:lightgray; color:green; text-align:center">
+        <p>음악 소개</p>
+        <p>음악을 소개하는 페이지 입니다.</p>
+    </div>
+    <p style="background-color: royalblue;"> 저는 블록 요소 입니다.</p>
+    <span style="background-color: pink;"> 저는 인라인 요소 입니다. </span>
+
+
+    <h2>레드향 샐러드 레시피</h2>
+<p><span style="color: red;"><b> 재료 :</b></span> 레드향 1개, 아보카도 1개, 토마토 1개, 샐러드 채소 30g <br> </p>
+
+</ol>
+
+<a href="http://google.co.kr" target="_blank" >구글로 이동</a> 
+<img src="./images/bear.png" height="50px" alt="이미지가 없어요ㅠㅠㅠ">
+<img src="./images/beach.jpg" height="200px"  alt="이미지가 없어요ㅠㅠㅠ">
+
+
+<a href="http://google.co.kr" target="_blank">
+    <img src="./images/goolge_logo.png" alt="구글 로고">
+</a>
+
+<br>
+<hr>
+
+<table>
+    <caption>상품 정보 테이블</caption>
+    <thead>
+    <tr>
+        <th>번호</th>
+        <th>상품명</th>
+        <th>수량</th>
+        <th>가격</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>콜라</td>
+        <td>1개</td>
+        <td rowspan="3">1,500</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>사이다</td>
+        <td>2개</td>
+        
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>탄산수</td>
+        <td>3개</td>
+        
+    </tr>
+    </tbody>
+    <tfoot>
+        <td>총 금액</td>
+        <td colspan="3">6,000</td>
+    </tfoot>
+</table>
+
+</body>
+</html>
