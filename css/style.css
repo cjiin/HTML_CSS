@@ -1,0 +1,15 @@
+
+    h1 {
+        padding: 10px;
+        background-color: #222;
+        color: #fff;
+    }
+    p {
+        background-color: royalblue;
+        color: white;
+        font-weight: bold;
+    }
+    span {
+        color: red;
+    }
+
