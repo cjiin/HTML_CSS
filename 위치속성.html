@@ -6,6 +6,7 @@
     <style>
         body {
             margin: 0;
+            position: relative;
         }
         .box {
             width: 100px;
@@ -13,16 +14,20 @@
         }
         .red-box{
             background-color: red;
-            position: relative;
-            z-index: 1;
+            /* position: relative;
+            z-index: 1; */
         }
         .green-box{
             background-color: green;
             /* fixed: 뷰포트 기준으로 고정된 위치*/
-            position: absolute;
+            position: sticky;
             left: 10px;
-            top: 10px;
-            z-index: 2;
+            top: 30px;
+            /* z-index: 2; */
+        }
+        .blue-box{
+            background-color: blue;
+         
         }
     
     
@@ -31,6 +36,6 @@
 <body>
     <div class="box red-box"></div>
     <div class="box green-box"></div>
-    
+    <div class="box blue-box"></div>
 </body>
 </html>
